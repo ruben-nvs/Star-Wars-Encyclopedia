@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+@keyframes animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-image: url("../img/bg.png");
+    margin: 0;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+#title {
+    color: #fff;
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500; 
+    font-size: 38px;
+    margin-top: 50px;
+}
+
+#photo1 {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: #fff solid 2px;
+}
+
+#caracteristiques {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: left;
+    color: #fff;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 200; 
+    font-size: 18px;
+}
+
+.gras {
+    font-weight: 500;
+}
+
+#paragraphe {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    text-align: center;
+    color: #fff;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400; 
+    font-size: 22px;
+    letter-spacing: 1.25px;
+}
+
+#citation {
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#citation h2 {
+    text-align: center;
+    color: #FFC300;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 200; 
+    font-size: 36px;
+}
+
+#citation figcaption {
+    text-align: right;
+    color: #FFC300;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 600; 
+    font-size: 16px;
+}
+
+#subtitle {
+    margin-top: 100px;
+    color:#fff;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400; 
+    font-size: 32px;
+    text-align: center;
+}
+
+#photos {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photos img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border: #fff solid 1px;
+}
+
+.reference {
+    color: #ffc300;
+    text-decoration: none;
+}
+
+.reference:hover {
+    color: #ffe693;
+}

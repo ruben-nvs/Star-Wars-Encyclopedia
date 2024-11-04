@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+/* Importation de la police "Oxanium" de Google Fonts, avec des poids allant de 200 à 800 */
+
+/* Définition d'une animation */
+@keyframes introAnimation {
+    0% {
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0;
+        /* L'élément commence avec une échelle réduite (10 %) et une opacité de 0 */
+    }
+    60% {
+        opacity: 1;
+        /* À 60 % de l'animation, l'opacité devient complètement visible */
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        /* L'élément atteint sa taille normale et reste complètement visible */
+    }
+}
+
+body {
+    background-image: url("img/bg.png");
+    /* Image de fond pour la page */
+    margin: 0;
+    padding-bottom: 50px;
+    /* Pas de marge, avec un espace de 50px en bas */
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: #ffc300;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.target {
+    width: 50px;
+    height: 50px;
+    background-image: url("img/cible.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: pointer; /* Curseur de la souris lorsque l'on passe sur la cible */
+    z-index: 20; /* S'assurer que la cible est au-dessus des autres éléments */
+}
+
+.target:hover {
+    cursor: url('img/sabre.png') 16 16, auto;
+}
+
+.target:active {
+    cursor: url('img/sabre2.png') 16 16, auto;
+}
+
+#navbar {
+    list-style-type: none;
+    /* Supprime les points par défaut des éléments de la liste */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Supprime les débordements */
+    width: fit-content;
+    /* La largeur s'ajuste automatiquement au contenu */
+    margin: auto;
+    /* Centre horizontalement la barre de navigation */
+    margin-top: 20px;
+    /* Ajoute un espace de 20px en haut */
+}
+
+#navbar li {
+    display: inline;
+    /* Les éléments de liste sont affichés en ligne */
+    float: left;
+    /* Oriente les éléments vers la gauche */
+    padding: 15px;
+    /* Ajoute un espace intérieur de 15px */
+    margin-left: 15px;
+    margin-right: 15px;
+    /* Ajoute un espace entre les éléments de la liste */
+}
+
+#navbar li a {
+    display: block;
+    /* Les liens remplissent tout l'espace disponible */
+    text-decoration: none;
+    /* Supprime le soulignement du texte */
+    color: white;
+    /* Texte en blanc */
+    font-family: "Oxanium", sans-serif;
+    /* Police "Oxanium" */
+    font-weight: 300;
+    /* épaisseur de la police */
+    font-size: 18px;
+    /* Taille de police */
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+    /* Soulignement au survol avec la souris */
+}
+
+#intro {
+    color: #30e7ef;
+    /* Couleur de texte bleu clair */
+    font-family: "Oxanium", sans-serif;
+    /* Police "Oxanium" */
+    font-weight: 400;
+    /* épaisseur de police */
+    font-size: 32px;
+    /* Taille de police */
+    text-align: left;
+    /* Texte aligné à gauche */
+    max-width: 575px;
+    /* Largeur maximale */
+    margin: auto;
+    /* Centrage automatique */
+    position: absolute;
+    /* Position absolue pour placer précisément l'élément */
+    top: 50%;
+    left: 50%;
+    /* Centrage horizontal et vertical */
+    transform: translate(-50%, -50%);
+    /* Ajuste la position pour centrer parfaitement */
+    opacity: 0;
+    /* Opacité initiale de 0 */
+    animation: introAnimation 1s ease-out forwards;
+    /* Applique l'animation sur 1 seconde */
+}
+
+#bottom {
+    position: fixed;
+    /* Positionnement fixe, reste en place même lors du défilement */
+    bottom: 0;
+    /* Fixe l'élément en bas de la page */
+    left: 50%;
+    /* Centre horizontalement */
+    transform: translateX(-50%);
+    /* Centre l'élément exactement au milieu */
+    text-align: center;
+    /* Texte centré */
+    color: #fff;
+    /* Couleur de texte blanche */
+    font-family: "Oxanium", sans-serif;
+    /* Police "Oxanium" */
+    font-weight: 200;
+    /* épaisseur de police */
+    font-size: 18px;
+    /* Taille de police */
+    width: 100%;
+    /* Largeur de 100% */
+    margin-bottom: 25px;
+    /* Espace de 25px en bas */
+}
+
+.reference {
+    color: #ffc300;
+    /* Couleur jaune pour les liens de référence */
+    text-decoration: none;
+    /* Supprime la décoration par défaut des liens */
+}
+
+.reference:hover {
+    color: #ffe693;
+    /* Change la couleur en jaune plus clair au survol */
+}

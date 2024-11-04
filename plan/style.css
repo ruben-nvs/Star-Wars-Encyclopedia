@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+#paragraphe {
+    color: white;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500; 
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    letter-spacing: 1.5px;
+}
+
+#planetes {
+    margin: auto;
+}
+
+#planetes td {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#planetes tr {
+    display: block;
+    margin-bottom: 25px;
+}
+
+#planetes a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+    text-align: center;
+}
+
+#planetes div:hover {
+    transform: scale(1.025);
+}
+
+#planetes div {
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+    padding-top: 10px;
+    background-size: cover;
+}
+
+.non_vide {
+    border: #fff solid 2px;
+}
+
+@keyframes animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+#planetes #naboo {
+    background-image: url("../img/plan/naboo.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#planetes #tatooine {
+    background-image: url("../img/plan/tatooine.png");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#planetes #coruscant {
+    background-image: url("../img/plan/coruscant.png");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#planetes #kamino {
+    background-image: url("../img/plan/kamino.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#planetes #geonosis {
+    background-image: url("../img/plan/geonosis.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#planetes #mustafar {
+    background-image: url("../img/plan/mustafar.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#planetes #dagobah {
+    background-image: url("../img/plan/dagobah.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#planetes #kashyyyk {
+    background-image: url("../img/plan/kashyyyk.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+#planetes #yavin {
+    background-image: url("../img/plan/yavin.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#planetes #hoth {
+    background-image: url("../img/plan/hoth.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#planetes #bespin {
+    background-image: url("../img/plan/bespin.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#planetes #endor {
+    background-image: url("../img/plan/endor.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#planetes #utapau {
+    background-image: url("../img/plan/utapau.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#planetes #alderande {
+    background-image: url("../img/plan/alderande.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#planetes #felucia {
+    background-image: url("../img/plan/felucia.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#planetes #noire {
+    background-image: url("../img/plan/noire.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#planetes #mort {
+    background-image: url("../img/plan/mort0.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+.reference {
+    color: #ffc300;
+    text-decoration: none;
+}
+
+.reference:hover {
+    color: #ffe693;
+}

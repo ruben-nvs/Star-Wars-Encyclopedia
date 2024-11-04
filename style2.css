@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+/* Styles pour chaque section */
+section {
+    margin-top: 50px;
+    /* Ajoute une marge de 50 pixels au-dessus de chaque section */
+    padding-top: 25px;
+    /* Ajoute un espace intérieur de 25 pixels en haut */
+}
+
+section table {
+    width: 100%;
+    /* Le tableau occupe 100 % de la largeur de son conteneur */
+}
+
+.titre {
+    color: white;
+    /* Couleur blanche pour le texte */
+    font-family: "Oxanium", sans-serif;
+    /* Utilise la police "Oxanium" */
+    font-weight: 500;
+    /* épaisseur de police */
+    font-size: 42px;
+    /* Taille de police */
+    text-align: center;
+    /* Centre le texte horizontalement */
+    padding-bottom: 50px;
+    /* Ajoute un espace de 50 pixels en dessous */
+}
+
+.affiche {
+    border: 2px solid #fff;
+    /* Bordure blanche de 2 pixels d'épaisseur */
+    margin-right: 100px;
+    /* Ajoute une marge de 100 pixels à droite */
+    float: right;
+    /* positionne l'élément vers la droite */
+}
+
+.td_affiche {
+    width: 50%;
+    /* Définit la largeur de la cellule à 50 % */
+}
+
+.cellule {
+    color: white;
+    /* Couleur blanche pour le texte */
+    font-family: "Oxanium", sans-serif;
+    /* Police "Oxanium" */
+    font-weight: 400;
+    /* épaisseur de la police */
+    font-size: 18px;
+    /* taille de police */
+    text-align: left;
+    /* Texte aligné à gauche */
+    width: 50%;
+    /* Largeur de 50 % */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* Ajoute 10 pixels d'espace en haut et en bas */
+}
+
+#resume {
+    font-weight: 200;
+    max-width: 600px;
+    /* largeur maximale de 600 pixels */
+}
+
+.intitule {
+    font-weight: 200;
+}
+
+.lien {
+    color: #FFC300;
+}
+
+.lien:hover {
+    color: #FFF;
+}
+
+.cell_droite {
+    vertical-align: top;
+    /* Aligne verticalement le contenu en haut de la cellule */
+}
+
+.fixed-buttons {
+    position: fixed;
+    /* Positionne les boutons de manière fixe, même lors du défilement */
+    right: 20px;
+    /* Positionne les boutons à 20 pixels du bord droit de l'écran */
+    top: 50%;
+    /* Centre les boutons verticalement */
+    transform: translateY(-50%);
+    /* Ajuste la position pour un centrage parfait */
+    display: flex;
+    /* Utilise Flexbox pour disposer les boutons */
+    flex-direction: column;
+    /* Aligne les boutons verticalement */
+    gap: 10px;
+    /* Ajoute un espace de 10 pixels entre les boutons */
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    /* Dimensions  */
+    border-radius: 50%;
+    /* Bordure arrondie pour un bouton circulaire */
+    background-color: #FFC300;
+    /* Couleur de fond */
+    border: none;
+    /* Supprime la bordure par défaut */
+    color: #000;
+    /* Couleur noire pour l'icône */
+    font-size: 24px;
+    /* Taille de police */
+    display: flex;
+    /* Utilise flexbox pour centrer le contenu */
+    align-items: center;
+    justify-content: center;
+    /* Centre le contenu horizontalement et verticalement */
+    cursor: pointer;
+    /* Affiche un curseur en forme de main pour indiquer qu'il est cliquable */
+}
+
+#paragraphe {
+    color: white;
+    /* Couleur blanche pour le texte */
+    font-family: "Oxanium", sans-serif;
+    /* Utilise la police "Oxanium" */
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+    /* Ajoute une marge de 100 pixels en haut */
+    max-width: 1000px;
+    /* Limite la largeur maximale à 1000 pixels */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centre horizontalement l'élément */
+    margin-bottom: 100px;
+    /* Ajoute une marge de 100 pixels en bas */
+    letter-spacing: 1.5px;
+    /* Espacement de 1.5 pixels entre les lettres */
+}

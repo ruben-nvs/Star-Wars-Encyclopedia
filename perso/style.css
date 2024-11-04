@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+/*
+#choose {
+    color: white;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400; 
+    font-size: 28px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#choix {
+    margin: auto;
+    margin-top: 50px;
+}
+
+#choix a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 100px;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400; 
+    font-size: 28px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+
+#choix a:hover {
+    transform: scale(1.025);
+}
+
+#choix #lum a {
+    background-color: #3FA7D6;  
+}
+
+#choix #obs a {
+    background-color: #EE6352;
+}
+*/
+
+#paragraphe {
+    color: white;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 500; 
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    letter-spacing: 1.5px;
+}
+
+.subtitle {
+    color: white;
+    padding-bottom: 50px;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 300; 
+    font-size: 24px;
+    text-align: center;
+}
+
+#obscur {
+    padding-top: 100px;
+}
+
+.gras {
+    font-weight: 600;
+}
+
+#gentils, #mechants {
+    margin: auto;
+}
+
+#gentils td, #mechants td {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#gentils tr, #mechants tr {
+    display: block;
+    margin-bottom: 25px;
+}
+
+#gentils a, #mechants a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+    text-align: center;
+}
+
+#gentils div:hover, #mechants div:hover {
+    transform: scale(1.025);
+}
+
+#gentils div, #mechants div {
+    width: 200px;
+    height: 350px;
+    border-radius: 25px;
+    padding-top: 10px;
+    background-size: cover;
+}
+
+.non_vide {
+    border: #fff solid 2px;
+}
+
+@keyframes animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#gentils #obiwan {
+    background-image: url("../img/pers/obiwan.jpg");
+    background-position-x: 35%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#gentils #quigon {
+    background-image: url("../img/pers/quigon.jpg");
+    background-position-x: 60%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#gentils #padme {
+    background-image: url("../img/pers/padme.jpg");
+    background-position-x: 65%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#gentils #jarjar {
+    background-image: url("../img/pers/jarjar.jpeg");
+    background-position-x: 60%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#gentils #r2d2 {
+    background-image: url("../img/pers/r2d2.jpg");
+    background-position-x: 60%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#gentils #anakin {
+    background-image: url("../img/pers/anakin.jpg");
+    background-position-x: 55%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#gentils #c3po {
+    background-image: url("../img/pers/c3po.jpeg");
+    background-position-x: 45%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#gentils #yoda {
+    background-image: url("../img/pers/yoda.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+#gentils #windu {
+    background-image: url("../img/pers/windu.jpg");
+    background-position-x: 35%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#gentils #clone {
+    background-image: url("../img/pers/clone.jpeg");
+    background-position-x: 30%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#gentils #chew {
+    background-image: url("../img/pers/chew.jpeg");
+    background-position-x: 55%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#gentils #luke {
+    background-image: url("../img/pers/luke.jpg");
+    background-position-x: 45%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#gentils #leia {
+    background-image: url("../img/pers/leia.jpg");
+    background-position-x: 35%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#gentils #lando {
+    background-image: url("../img/pers/lando.jpg");
+    background-position-x: 40%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#gentils #han {
+    background-image: url("../img/pers/han.jpeg");
+    background-position-x: 45%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#mechants #palpatine {
+    background-image: url("../img/pers/palpatine.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#mechants #maul {
+    background-image: url("../img/pers/maul.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#mechants #vador {
+    background-image: url("../img/pers/vador.jpg");
+    background-position-x: 45%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#mechants #jabba {
+    background-image: url("../img/pers/jabba.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#mechants #boba {
+    background-image: url("../img/pers/boba.jpg");
+    background-position-x: 60%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#mechants #dooku {
+    background-image: url("../img/pers/dooku.jpg");
+    background-position-x: 75%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#mechants #grievous {
+    background-image: url("../img/pers/grievous.jpeg");
+    background-position-x: 55%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#mechants #storm {
+    background-image: url("../img/pers/storm.jpg");
+    background-position-x: 55%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+.reference {
+    color: #ffc300;
+    text-decoration: none;
+}
+
+.reference:hover {
+    color: #ffe693;
+}
+
+

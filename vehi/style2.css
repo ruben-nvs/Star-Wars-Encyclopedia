@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+/* Style pour le paragraphe */
+#paragraphe0 {
+    color: white; /* Couleur du texte */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 500; /* Épaisseur de la police */
+    font-size: 22px; /* Taille de la police */
+    text-align: center; /* Alignement centré */
+    margin-top: 100px; /* Marge au-dessus */
+    max-width: 1000px; /* Largeur maximale */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto;
+    margin-bottom: 100px; /* Marge en dessous */
+    letter-spacing: 1.5px; /* Espacement des lettres */
+}
+
+/* Style pour la section des véhicules */
+#vehicules {
+    margin: auto; /* Centre la section */
+}
+
+/* Style pour les cellules des véhicules */
+#vehicules td {
+    display: inline-block; /* Affiche les cellules en ligne */
+    margin-left: 15px; /* Marge à gauche */
+    margin-right: 15px; /* Marge à droite */
+}
+
+/* Style pour les lignes des véhicules */
+#vehicules tr {
+    display: block; /* Affiche les lignes en bloc */
+    margin-bottom: 25px; /* Marge en dessous des lignes */
+}
+
+/* Style pour les liens dans la section des véhicules */
+#vehicules a {
+    text-decoration: none; /* Pas de soulignement */
+    color: #fff; /* Couleur du texte */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 300; /* Épaisseur de la police */
+    font-size: 20px; /* Taille de la police */
+    text-align: center; /* Alignement centré */
+}
+
+/* Effet de survol pour les divs dans #vehicules */
+#vehicules div:hover {
+    transform: scale(1.025); /* Agrandit légèrement le div au survol */
+}
+
+/* Style général pour les divs dans #vehicules */
+#vehicules div {
+    width: 250px; /* Largeur fixe */
+    height: 150px; /* Hauteur fixe */
+    border-radius: 25px; /* Coins arrondis */
+    padding-top: 10px; /* espace en haut */
+    background-size: cover; /* Couvre entièrement le fond */
+}
+
+/* Classe pour les éléments non vides */
+.non_vide {
+    border: #fff solid 2px; /* Bordure blanche solide */
+}
+
+/* Animation */
+@keyframes animation {
+    from {
+        opacity: 0; /* Départ invisible */
+    }
+    to {
+        opacity: 1; /* Fin visible */
+    }
+}
+
+/* Styles spécifiques pour les véhicules avec images de fond */
+#vehicules #faucon {
+    background-image: url("../img/vehi/faucon1.jpg"); /* Image de fond */
+    background-position-x: 50%; /* Centrage horizontal */
+    animation-name: animation; /* Nom de l'animation */
+    animation-duration: 2s; /* Durée de l'animation */
+}
+
+/* Styles pour d'autres véhicules, suivant le même modèle */
+#vehicules #xwing {
+    background-image: url("../img/vehi/xwing2.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#vehicules #tie {
+    background-image: url("../img/vehi/tie1.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#vehicules #slave {
+    background-image: url("../img/vehi/slave2.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#vehicules #croiseur {
+    background-image: url("../img/vehi/croiseur1.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#vehicules #jedi {
+    background-image: url("../img/vehi/jedi1.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#vehicules #speeder {
+    background-image: url("../img/vehi/speeder1.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+#vehicules #atat {
+    background-image: url("../img/vehi/atat1.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+#vehicules #executeur {
+    background-image: url("../img/vehi/executeur1.jpg");
+    background-position-x: 0%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#vehicules #module {
+    background-image: url("../img/vehi/module.jpeg");
+    background-position-x: 50%;
+    background-position-y: 75%;
+    animation-name: animation;
+    animation-duration: 3.5s;
+}
+
+#vehicules #intercepteur {
+    background-image: url("../img/vehi/intercepteur1.jpeg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+#vehicules #royal {
+    background-image: url("../img/vehi/royal1.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+#vehicules #moto {
+    background-image: url("../img/vehi/moto3.jpg");
+    background-position-x: 50%;
+    animation-name: animation;
+    animation-duration: 2.5s;
+}
+
+/* Style pour les liens dans les textes */
+.reference {
+    color: #ffc300; /* Couleur */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+/* Effet de survol pour les liens */
+.reference:hover {
+    color: #ffe693; /* Couleur plus claire au survol */
+}
+
+/* Style de fond pour le body */
+body {
+    background-image: url("../img/bg.png"); /* Image de fond */
+    margin: 0; /* Pas de marge par défaut */
+    padding-bottom: 50px; /* espace en bas */
+}
+
+/* Styles pour le titre principal */
+#title {
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 500; /* Épaisseur de la police */
+    font-size: 38px; /* Taille de la police */
+    margin-top: 50px; /* Marge au-dessus */
+}
+
+/* Styles pour la première photo */
+#photo1 {
+    margin-top: 50px; /* Marge au-dessus */
+    display: block; /* Affichage en bloc */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto;
+    border-radius: 25px; /* Coins arrondis */
+    border: #fff solid 2px; /* Bordure blanche solide */
+}
+
+/* Styles pour les caractéristiques */
+#caracteristiques {
+    margin-top: 35px; /* Marge au-dessus */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto;
+    width: fit-content; /* Largeur adaptée au contenu */
+    text-align: left; /* Alignement à gauche */
+    color: #fff; /* Couleur du texte */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 200; /* Épaisseur de la police */
+    font-size: 18px; /* Taille de la police */
+}
+
+/* Classe pour le texte en gras */
+.gras {
+    font-weight: 500; /* Épaisseur de la police */
+}
+
+/* Styles pour le paragraphe principal */
+#paragraphe {
+    margin-top: 35px; /* Marge au-dessus */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto;
+    max-width: 700px; /* Largeur maximale */
+    text-align: center; /* Alignement centré */
+    color: #fff; /* Couleur du texte */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 400; /* Épaisseur de la police */
+    font-size: 22px; /* Taille de la police */
+    letter-spacing: 1.25px; /* Espacement des lettres */
+}
+
+/* Styles pour la section des citations */
+#citation {
+    width: fit-content; /* Largeur adaptée au contenu */
+    margin-top: 100px; /* Marge au-dessus */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto; /* Centre horizontalement */
+}
+
+/* Styles pour les citations */
+#citation h2 {
+    text-align: center; /* Alignement centré */
+    color: #FFC300; /* Couleur */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 200; /* Épaisseur de la police */
+    font-size: 36px; /* Taille de la police */
+}
+
+/* Styles pour les légendes des citations */
+#citation figcaption {
+    text-align: right; /* Alignement à droite */
+    color: #FFC300; /* Couleur */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 600; /* Épaisseur de la police */
+    font-size: 16px; /* Taille de la police */
+}
+
+/* Styles pour les sous-titres */
+#subtitle {
+    margin-top: 100px; /* Marge au-dessus */
+    color: #fff; /* Couleur du texte */
+    font-family: "Oxanium", sans-serif; /* Police de caractères */
+    font-weight: 400; /* Épaisseur de la police */
+    font-size: 32px; /* Taille de la police */
+    text-align: center; /* Alignement centré */
+}
+
+/* Styles pour la section des photos */
+#photos {
+    margin-top: 25px; /* Marge au-dessus */
+    margin-left: auto; /* Centre horizontalement */
+    margin-right: auto;
+}
+
+/* Styles pour les images dans la section des photos */
+#photos img {
+    width: 250px;
+    height: 150px; /* dimensions */
+    object-fit: cover; /* Ajustement de l'image pour couvrir l'élément */
+    border: #fff solid 1px; /* Bordure blanche solide */
+}
