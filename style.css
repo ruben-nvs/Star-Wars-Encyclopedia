@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 /* Importation de la police "Oxanium" de Google Fonts, avec des poids allant de 200 à 800 */
 
-/* Définition d'une animation */
+/* animation */
 @keyframes introAnimation {
     0% {
         transform: translate(-50%, -50%) scale(0.1);
         opacity: 0;
-        /* L'élément commence avec une échelle réduite (10 %) et une opacité de 0 */
+        /* L'élément commence avec une échelle à 10 % et une opacité de 0 */
     }
     60% {
         opacity: 1;
