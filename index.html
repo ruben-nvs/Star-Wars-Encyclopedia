@@ -37,32 +37,26 @@
 
         // Fonction pour générer des coordonnées aléatoires
         function getRandomPosition() {
-            const x = Math.random() * (window.innerWidth - 50); // 50 est la largeur de la cible
-            const y = Math.random() * (window.innerHeight - 50); // 50 est la hauteur de la cible
+            const x = Math.random() * (window.innerWidth - 100); // 100 est une marge
+            const y = Math.random() * (window.innerHeight - 100);
             return { x, y };
         }
-
         // Fonction pour déplacer la cible à une nouvelle position
         function moveTarget() {
             const { x, y } = getRandomPosition();
             target.style.left = `${x}px`;
             target.style.top = `${y}px`;
         }
-
         // Fonction pour mettre à jour le score
         function updateScore() {
             score += 1;
             scoreDisplay.textContent = `Score : ${score}`;
         }
-
         // Événement de clic sur la cible
         target.addEventListener('click', () => {
             updateScore();
             moveTarget();
         });
-
-
-
         // Initialiser la position de la cible au chargement de la page
         moveTarget();
     </script>
