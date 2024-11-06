@@ -169,43 +169,35 @@
         <button class="button">&#9660;</button>
     </div>
     <script>
-        // Sélectionne tous les éléments <section> dans le document et les stocke dans une constante 'sections'
+        // Sélectionne toutes les sections les stocke dans une constante 'sections'
         const sections = document.querySelectorAll("section");
-        
-        // Initialise l'index de la section actuelle à -1 (indique qu'aucune section n'est actuellement sélectionnée)
+        // Initialise l'index de la section actuelle à -1 pour indiquer qu'aucune section n'est actuellement sélectionnée
         let currentSectionIndex = -1;
-    
         // Fonction pour faire défiler la page vers la section spécifiée par l'index
         function scrollToSection(index) {
-            // Fait défiler en douceur vers la section correspondante à l'index donné
+            // Fait défiler en douceur
             sections[index].scrollIntoView({ behavior: "smooth" });
         }
-    
         // défiler vers la section précédente
         document.querySelector(".button:nth-child(1)").addEventListener("click", () => {
-            // Diminue l'index de la section actuelle
+            // Diminue l'index
             currentSectionIndex--;
-            
-            // Si l'index devient inférieur à 0, le réinitialise à l'index de la dernière section
+            // Si l'index devient inférieur à 0, réinitialisation à l'index de la dernière section
             if (currentSectionIndex < 0) {
                 currentSectionIndex = sections.length - 1;
             }
-            
-            // Appelle la fonction pour faire défiler vers la section actuelle
+            // Appelle la fonction pour faire défiler
             scrollToSection(currentSectionIndex);
         });
-    
         // défiler vers la section suivante
         document.querySelector(".button:nth-child(2)").addEventListener("click", () => {
-            // Augmente l'index de la section actuelle
+            // Augmente l'index
             currentSectionIndex++;
-            
-            // Si l'index dépasse le nombre total de sections, le réinitialise à 0 (la première section)
+            // Si l'index dépasse le nombre total de sections, le reset à 0
             if (currentSectionIndex >= sections.length) {
                 currentSectionIndex = 0;
             }
-            
-            // Appelle la fonction pour faire défiler vers la section actuelle
+            // Appelle la fonction pour faire défiler
             scrollToSection(currentSectionIndex);
         });
     </script>
